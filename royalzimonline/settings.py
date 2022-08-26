@@ -53,7 +53,6 @@ INSTALLED_APPS = [
     "corsheaders",
     'whitenoise.runserver_nostatic',
     'django_dropbox_storage',
-    'django-storages'
 ]
 
 MIDDLEWARE = [
