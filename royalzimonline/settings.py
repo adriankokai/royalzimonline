@@ -156,4 +156,5 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://royalzimonline.web.app",
     "http://royalzimonline.we.app",
+    "https://zimroyalonline.web.app",
 ]
