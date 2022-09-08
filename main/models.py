@@ -14,7 +14,7 @@ class Product(models.Model):
     description = models.CharField(max_length=255, null=True, blank=True)
     qty = models.CharField(max_length=255)
     category = models.CharField(max_length=255, null=True, blank=True)
-    thumbnail = models.ImageField(null=True)
+    thumbnail = models.CharField(max_length=255, null=True)
     images =  models.ManyToManyField(Image, blank=True)
 
     def __str__(self):
